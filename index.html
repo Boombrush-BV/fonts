@@ -5,34 +5,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Fonts</title>
+    <title>Boombrush Fonts</title>
 </head>
 
 <body>
 
     <style>
+        @import url('https://boombrush-bv.github.io/fonts/GTMaru/stylesheet.css');
+        @import url('https://boombrush-bv.github.io/fonts/GTMaruMono/stylesheet.css');
+
+        * {
+            font-family: 'GT Maru';
+            font-feature-settings: 'ss01'on;
+            letter-spacing: -0.06em;
+            -webkit-font-smoothing: antialiased;
+        }
+        .code-blok{
+            background-color: #222;
+            color: white;
+            padding: 25px;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            background-color: #000;
+            padding: 10px;
+        }
+    </style>
+
+    <style>
         code {
-            font-family: monospace;
+            font-family: 'GT Maru Mono';
         }
     </style>
 
     <h1>Boombrush Fonts</h1>
     <p>@import</p>
-    <code>
-        @import url('https://boombrush-bv.github.io/fonts/GTMaru/stylesheet.css');
-        <br>
-        @import url('https://boombrush-bv.github.io/fonts/GTMaruMono/stylesheet.css');
-        <br>
-        @import url('https://boombrush-bv.github.io/fonts/GTMaruMega/stylesheet.css');
-    </code>
-    <p>URL's</p>
-    <a href="https://boombrush-bv.github.io/fonts/GTMaru/stylesheet.css">GT Maru</a>
+    <div class="code-blok">
+        <code>
+            @import url('https://boombrush-bv.github.io/fonts/GTMaru/stylesheet.css');
+            <br>
+            @import url('https://boombrush-bv.github.io/fonts/GTMaruMono/stylesheet.css');
+            <br>
+            @import url('https://boombrush-bv.github.io/fonts/GTMaruMega/stylesheet.css');
+        </code>
+    </div>
     <br>
-    <a href="https://boombrush-bv.github.io/fonts/GTMaruMono/stylesheet.css">GT Maru Mono</a>
     <br>
-    <a href="https://boombrush-bv.github.io/fonts/GTMaruMega/stylesheet.css">GT Maru Mega</a>
-    
-
+    <p>Demo's</p>
+    <br>
+    <a href="https://boombrush-bv.github.io/fonts/GTMaru/demo.html">GT Maru</a>
+    <br>
+    <br>
+    <br>
+    <a href="https://boombrush-bv.github.io/fonts/GTMaruMono/demo.html">GT Maru Mono</a>
+    <br>
+    <br>
+    <br>
+    <a href="https://boombrush-bv.github.io/fonts/GTMaruMega/demo.html">GT Maru Mega</a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p>CSS</p>
+    <div class="code-blok">
+        <code>
+            * {
+            <br>
+            font-family: 'GT Maru';
+            <br>
+            font-feature-settings: 'ss01'on;
+            <br>
+            letter-spacing: -0.06em;
+            <br>
+            -webkit-font-smoothing: antialiased;
+            <br>
+            }
+        </code>
+    </div>
 
 </body>
 
